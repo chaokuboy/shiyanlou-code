@@ -17,7 +17,7 @@ st.set_page_config(
 
 
 st.sidebar.title("首页")
-st.sidebar.image("./static/4.png")
+# st.sidebar.image("./static/4.png")
 st.header("智汇中医")
 st.markdown(":balloon: ***智汇中医***  ***智慧教学***:+1: ***智汇点亮您前行的路***.:balloon:")
 with st.container(height=160):
