@@ -6,7 +6,7 @@ from st_pages import Page, show_pages
 
 
 st.set_page_config(
-    page_title="学途教育",
+    page_title="智汇中医",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -18,8 +18,8 @@ st.set_page_config(
 
 st.sidebar.title("首页")
 st.sidebar.image("./static/4.png")
-st.header("学途无忧")
-st.markdown(":balloon: ***学途教育***  ***智慧教学***:+1: ***学途点亮您前行的路***.:balloon:")
+st.header("智汇中医")
+st.markdown(":balloon: ***智汇中医***  ***智慧教学***:+1: ***智汇点亮您前行的路***.:balloon:")
 with st.container(height=160):
     colx,coly,colz,c1,c3,c2=st.columns(6)
     with colx:
