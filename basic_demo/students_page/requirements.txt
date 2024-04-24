@@ -37,7 +37,7 @@ cloudpathlib==0.16.0
 colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.1
-conda==22.11.1
+conda==22.11.1 required python >=3.10
 
 confection==0.1.4
 contourpy==1.2.0
