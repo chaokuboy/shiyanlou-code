@@ -23,8 +23,8 @@ st.markdown(":balloon: ***智汇中医***  ***智慧教学***:+1: ***智汇点�
 with st.container(height=160):
     colx,coly,colz,c1,c3,c2=st.columns(6)
     with colx:
-        #st.image(".././static/Al-Chatbot1.png")
-        st.image("https://tse1-mm.cn.bing.net/th/id/OIP-C.BMPFGpqH6EEk4kQK2o9CQgHaHP?rs=1&pid=ImgDetMain")
+        st.image("basic_demo/students_page/static/Al-Chatbot1.png")
+        #st.image("https://tse1-mm.cn.bing.net/th/id/OIP-C.BMPFGpqH6EEk4kQK2o9CQgHaHP?rs=1&pid=ImgDetMain")
         
         if st.button("智能答疑",type="primary"):
             st.switch_page("web_demo_streamlit.py")
