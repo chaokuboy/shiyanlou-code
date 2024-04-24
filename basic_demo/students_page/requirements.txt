@@ -39,7 +39,6 @@ coloredlogs==15.0.1
 comm==0.2.1
 
 
-confection==0.1.4
 contourpy==1.2.0
 cycler==0.12.1
 cymem==2.0.8
@@ -47,7 +46,6 @@ dataclasses-json==0.6.4
 datasets==2.16.1
 debugpy==1.8.0
 decorator==5.1.1
-deepspeed==0.13.1
 defusedxml==0.7.1
 Deprecated==1.2.14
 deprecation==2.1.0
@@ -62,7 +60,6 @@ et-xmlfile==1.1.0
 exceptiongroup==1.2.0
 executing==2.0.1
 faiss-cpu==1.7.4
-fastapi==0.109.0
 fastjsonschema==2.19.1
 feedparser==6.0.10
 ffmpy==0.3.1
@@ -72,7 +69,6 @@ flatbuffers==23.5.26
 fonttools==4.47.0
 fqdn==1.5.1
 frozenlist==1.4.1
-fschat==0.2.35
 fsspec==2023.10.0
 gitdb==4.0.11
 GitPython==3.1.41
