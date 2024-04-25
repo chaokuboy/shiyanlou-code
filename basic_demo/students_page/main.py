@@ -29,27 +29,27 @@ with st.container(height=160):
         if st.button("智能答疑",type="primary"):
             st.switch_page("web_demo_streamlit.py")
     with coly:
-        st.image("./static/作业-选中.png")
+        st.image("basic_demo/students_page/static/作业-选中.png")
         if st.button("我的作业",type="primary"):
             st.switch_page("homework.py")
     with colz:
-        st.image("./static/成绩管理-01.png")
+        st.image("basic_demo/students_page/static/成绩管理-01.png")
         if st.button("我的成绩",type="primary"):
             st.switch_page("exam.py")
     with c1:
-        st.image("./static/学堂.png")
+        st.image("basic_demo/students_page/static/学堂.png")
         if st.button("我的学堂",type="primary"):
             st.switch_page("exam.py")
     with c3:
-        st.image("./static/课程.png")
+        st.image("basic_demo/students_page/static/课程.png")
         if st.button("我的课程",type="primary"):
             st.switch_page("exam.py")
     with c2:
-        st.image("./static/个人中心.png")
+        st.image("basic_demo/students_page/static/个人中心.png")
         if st.button("个人中心",type="primary"):
             st.switch_page("exam.py")
-st.image("./static/img_3.png")
-st.image("./static/img_4.png")
+st.image("basic_demo/students_page/static/img_3.png")
+st.image("basic_demo/students_page/static/img_4.png")
 
 
 st.divider()
@@ -61,25 +61,25 @@ col1, col2, col3,col4,col5= st.columns(5)
 with col1:
 
     
-    st.image("./static/img_7.png")
+    st.image("basic_demo/students_page/static/img_7.png")
     st.markdown("**:gray[中医诊断学]**")
 
 with col2:
     
-    st.image("./static/img_6.png")
+    st.image("basic_demo/students_page/static/img_6.png")
     st.markdown("**:gray[中医食疗学]**")
 
 with col3:
     
-    st.image("./static/img_8.png")
+    st.image("basic_demo/students_page/static/img_8.png")
     st.markdown("**:gray[中医药与中华传统文化]**")
 with col4:
     
-    st.image("./static/img_9.png")
+    st.image("basic_demo/students_page/static/img_9.png")
     st.markdown("**:gray[走进神奇的中医药]**")
 with col5:
     
-    st.image("./static/img_10.png")
+    st.image("basic_demo/students_page/static/img_10.png")
     st.markdown("**:gray[解密黄帝内经]**")
 
 st.divider()
@@ -89,34 +89,34 @@ colx, coly, colz,colm,coln= st.columns(5)
 with colx:
 
     
-    st.image("./static/pic1.png")
+    st.image("basic_demo/students_page/static/pic1.png")
     st.markdown("**:gray[常见中医护理技术]**")
 
 with coly:
     
-    st.image("./static/pic2.png")
+    st.image("basic_demo/students_page/static/pic2.png")
     st.markdown("**:gray[中医养生]**")
 
 with colz:
     
-    st.image("./static/pic3.png")
+    st.image("basic_demo/students_page/static/pic3.png")
     st.markdown("**:gray[中医护理基础]**")
 with colm:
     
-    st.image("./static/pic4.png")
+    st.image("basic_demo/students_page/static/pic4.png")
     st.markdown("**:gray[中医美容实用技术]**")
 with coln:
     
-    st.image("./static/pic5.png")
+    st.image("basic_demo/students_page/static/pic5.png")
     st.markdown("**:gray[高黎贡山中医药食智慧]**")
     
 st.divider()
 
-st.image("./static/img_11.png")
+st.image("basic_demo/students_page/static/img_11.png")
 
 st.divider()
 
-st.image("./static/img_12.png")
+st.image("basic_demo/students_page/static/img_12.png")
 
 
 show_pages(
