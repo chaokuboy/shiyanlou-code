@@ -184,11 +184,11 @@ color:  # 2A2A2A;
 
 <div class="video">
 <ul>
-<li><video src="./app/static/p1.mp4" controls="controls"></video><p>创新与人文教育</p></li>
-<li><video src="./app/static/p2.mp4" controls="controls"></video><p>创新与人文教育</p></li>
-<li><video src="./app/static/p3.mp4" controls="controls"></video><p>创新与人文教育</p></li>
-<li><video src="./app/static/p4.mp4" controls="controls"></video><p>创新与人文教育</p></li>
-<li><video src="./app/static/p5.mp4" controls="controls"></video><p>创新与人文教育</p></li>
+<li><video src="basic_demo/students_page/static/p1.mp4" controls="controls"></video><p>创新与人文教育</p></li>
+<li><video src="basic_demo/students_page/static/p2.mp4" controls="controls"></video><p>创新与人文教育</p></li>
+<li><video src="basic_demo/students_page/static/p3.mp4" controls="controls"></video><p>创新与人文教育</p></li>
+<li><video src="basic_demo/students_page/static/p4.mp4" controls="controls"></video><p>创新与人文教育</p></li>
+<li><video src="basic_demo/students_page/static/p5.mp4" controls="controls"></video><p>创新与人文教育</p></li>
 </ul>
 </div>
 """, height=150, width=1500)
