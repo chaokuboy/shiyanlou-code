@@ -8,7 +8,7 @@ from pyecharts.faker import Faker
 from pyecharts import options as opts
 
 st.set_page_config(
-    page_title="学途教育",
+    page_title="智汇中医",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
