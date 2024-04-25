@@ -31,7 +31,7 @@ with st.container(height=160):
     with coly:
         st.image("basic_demo/students_page/static/作业-选中.png")
         if st.button("我的作业",type="primary"):
-            st.switch_page("homework.py")
+            st.switch_page("basic_demo/students_page/homework.py")
     with colz:
         st.image("basic_demo/students_page/static/成绩管理-01.png")
         if st.button("我的成绩",type="primary"):
