@@ -19,13 +19,13 @@ MODEL_PATH = os.environ.get('MODEL_PATH', '/root/autodl-tmp/ChatGLM3/finetune_de
 TOKENIZER_PATH = os.environ.get("TOKENIZER_PATH", MODEL_PATH)
 
 st.set_page_config(
-    page_title="学途无忧",
+    page_title="智汇中医",
     page_icon="🧊",
     layout="wide"
 )
 
-st.subheader('学途无忧')
-st.markdown("***学途教育，开启智慧之旅，成就未来之星***:+1: ***学途点亮您前行的路***.:sunglasses:")
+st.subheader('智汇中医')
+st.markdown("***智汇中医教育，开启智慧之旅，成就未来之星***:+1: ***智汇点亮您前行的路***.:sunglasses:")
 
 
 @st.cache_resource
@@ -41,7 +41,7 @@ tokenizer, model = get_model()
 
 
 if "history" not in st.session_state:
-    st.session_state.history = [{"role":"user","content":"你好！"},{"role":"assistant","content":"你好👋！我是学途无忧教育助手学途AI，很高兴见到你，欢迎问我任何问题。"}]
+    st.session_state.history = [{"role":"user","content":"你好！"},{"role":"assistant","content":"你好👋！我是智汇中医教育助手学途AI，很高兴见到你，欢迎问我任何问题。"}]
 if "past_key_values" not in st.session_state:
     st.session_state.past_key_values = None
 

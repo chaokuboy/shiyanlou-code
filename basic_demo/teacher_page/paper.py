@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 from streamlit_modal import Modal
 st.set_page_config(
-    page_title="学途教育",
+    page_title="智汇中医",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
