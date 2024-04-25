@@ -129,7 +129,7 @@ show_pages(
         Page("basic_demo/students_page/web_demo_streamlit.py", "智能答疑", "🧊"),
         Page("basic_demo/students_page/homework.py", "我的作业", "📖"),
         Page("basic_demo/students_page/exam.py", "我的成绩", "📊"),
-        Page("basic_demo/students_page/coview.py", "我的学堂", "🏫")
+        Page("basic_demo/students_page/coview.py", "图像助手", "🏫")
        
         # Will use the default icon and name based on the filename if you don't
         # pass them
