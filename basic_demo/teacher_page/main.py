@@ -14,8 +14,6 @@ st.set_page_config(
 
     }
 )
-
-
 st.sidebar.title("首页")
 st.sidebar.image("./static/4.png")
 st.header("智汇中医")
