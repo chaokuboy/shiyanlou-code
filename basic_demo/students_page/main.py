@@ -27,7 +27,7 @@ with st.container(height=160):
         #st.image("https://tse1-mm.cn.bing.net/th/id/OIP-C.BMPFGpqH6EEk4kQK2o9CQgHaHP?rs=1&pid=ImgDetMain")
         
         if st.button("智能答疑",type="primary"):
-            st.switch_page("web_demo_streamlit.py")
+            st.switch_page("basic_demo/students_page/web_demo_streamlit.py")
     with coly:
         st.image("basic_demo/students_page/static/作业-选中.png")
         if st.button("我的作业",type="primary"):
@@ -35,19 +35,19 @@ with st.container(height=160):
     with colz:
         st.image("basic_demo/students_page/static/成绩管理-01.png")
         if st.button("我的成绩",type="primary"):
-            st.switch_page("exam.py")
+            st.switch_page("basic_demo/students_page/exam.py")
     with c1:
         st.image("basic_demo/students_page/static/学堂.png")
         if st.button("我的学堂",type="primary"):
-            st.switch_page("exam.py")
+            st.switch_page("basic_demo/students_page/exam.py")
     with c3:
         st.image("basic_demo/students_page/static/课程.png")
         if st.button("我的课程",type="primary"):
-            st.switch_page("exam.py")
+            st.switch_page("basic_demo/students_page/exam.py")
     with c2:
         st.image("basic_demo/students_page/static/个人中心.png")
         if st.button("个人中心",type="primary"):
-            st.switch_page("exam.py")
+            st.switch_page("basic_demo/students_page/exam.py")
 st.image("basic_demo/students_page/static/img_3.png")
 st.image("basic_demo/students_page/static/img_4.png")
 
@@ -121,15 +121,15 @@ st.image("basic_demo/students_page/static/img_12.png")
 
 show_pages(
     [
-        Page("main.py", "首页", "🏠"),
+        Page("basic_demo/students_page/main.py", "首页", "🏠"),
         # Can use :<icon-name>: or the actual icon
         # Since this is a Section, all the pages underneath it will be indented
         # The section itself will look like a normal page, but it won't be clickable
         # The pages appear in the order you pass them
-        Page("web_demo_streamlit.py", "智能答疑", "🧊"),
-        Page("homework.py", "我的作业", "📖"),
-        Page("exam.py", "我的成绩", "📊"),
-        Page("coview.py", "我的学堂", "🏫")
+        Page("basic_demo/students_page/web_demo_streamlit.py", "智能答疑", "🧊"),
+        Page("basic_demo/students_page/homework.py", "我的作业", "📖"),
+        Page("basic_demo/students_page/exam.py", "我的成绩", "📊"),
+        Page("basic_demo/students_page/coview.py", "我的学堂", "🏫")
        
         # Will use the default icon and name based on the filename if you don't
         # pass them
