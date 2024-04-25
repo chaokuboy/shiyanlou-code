@@ -2,21 +2,7 @@
 enableStaticServing = true
 
 [theme]
-
-# # The preset Streamlit theme that your custom theme inherits from.
-# # One of "light" or "dark".
-
-# # Primary accent color for interactive elements.
-primaryColor ="#6BC7FD"
-# # Background color for the main content area.
-backgroundColor ="#FDF5D2"
-
-# # Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor ="#F9F0C2"
-
-# # Color used for almost all text.
-textColor ="#080C23"
-
-# # Font family for all text in the app, except code blocks. One of "sans serif",
-# # "serif", or "monospace".
-font ="sans serif"
+base="light"
+primaryColor="#83dbf5"
+backgroundColor="#f7f2da"
+secondaryBackgroundColor="#e8e8ba"
