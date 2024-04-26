@@ -9,7 +9,11 @@ st.set_page_config(
 )
 
 
+<<<<<<< HEAD
 st.subheader('学途无忧智汇中医')
+=======
+st.subheader('智汇中医')
+>>>>>>> 9c26e301ea2120db5f4b753f361ca6bf1b28ee1d
 st.markdown("***智汇中医教育，开启智慧之旅，成就未来之星***:+1: ***智汇中医点亮您前行的路***.:sunglasses:")
 
 

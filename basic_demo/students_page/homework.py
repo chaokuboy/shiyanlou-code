@@ -11,7 +11,7 @@ from pyecharts.faker import Faker
 from pyecharts.options import ComponentTitleOpts
 import time
 st.set_page_config(
-    page_title="学途教育",
+    page_title="智汇中医",
     page_icon="?",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -83,11 +83,11 @@ title4 = st.text_input('**10. 阴盛证是指阴气偏盛，脏腑机能障碍�
 st.write('**当前填空的内容是**', "<h6 style='color: red;'>"+title4+"</h6>",unsafe_allow_html=True)
 
 st.write("<h6>11. 舌诊”之描述下图是由什么引起的？</h6>",unsafe_allow_html=True)
-st.image('./pic/1.png')
+st.image('basic_demo/students_page/pic/1.png')
 title5 = st.text_input('作答', '')
 
 st.write("<h6>12. 画图题:画出舌体脏腑图。</h6>",unsafe_allow_html=True)
-st.image('./pic/2.png')
+st.image('basic_demo/students_page/pic/2.png')
 uploaded_files = st.file_uploader("Choose a image", accept_multiple_files=True)
 for uploaded_file in uploaded_files:
     bytes_data = uploaded_file.read()

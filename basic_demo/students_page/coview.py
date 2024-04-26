@@ -3,7 +3,7 @@ import streamlit as st
 from zhipuai import ZhipuAI
 
 st.set_page_config(
-    page_title="学途无忧",
+    page_title="智汇中医",
     page_icon="🧊",
     layout="wide"
 )

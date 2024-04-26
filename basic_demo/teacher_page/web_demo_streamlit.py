@@ -25,7 +25,11 @@ st.set_page_config(
 )
 
 st.subheader('智汇中医')
+<<<<<<< HEAD
 st.markdown("***智汇中医教育，开启智慧之旅，成就未来之星***:+1: ***智汇点亮您前行的路***.:sunglasses:")
+=======
+st.markdown("***智汇中医教育，开启智慧之旅，成就未来之星***:+1: ***智汇中医点亮您前行的路***.:sunglasses:")
+>>>>>>> 9c26e301ea2120db5f4b753f361ca6bf1b28ee1d
 
 
 @st.cache_resource
