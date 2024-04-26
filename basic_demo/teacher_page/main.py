@@ -15,14 +15,10 @@ st.set_page_config(
     }
 )
 st.sidebar.title("首页")
-<<<<<<< HEAD
-st.sidebar.image("./static/4.png")
-st.header("智汇中医")
-st.markdown(":balloon: ***智汇中医***  ***智汇中医***:+1: ***智汇点亮您前行的路***.:balloon:")
-=======
+
+
 st.header("智汇中医")
 st.markdown(":balloon: ***智汇中医教育***  ***智慧教学***:+1: ***智汇中医点亮您前行的路***.:balloon:")
->>>>>>> 9c26e301ea2120db5f4b753f361ca6bf1b28ee1d
 with st.container(height=160):
     colx,coly,colz,c1,c3,c2=st.columns(6)
     with colx:
@@ -48,11 +44,7 @@ with st.container(height=160):
     with c2:
         st.image("basic_demo/teacher_page/static/个人中心.png")
         if st.button("个人中心",type="primary"):
-<<<<<<< HEAD
-            st.switch_page("exam.py")
-=======
             st.switch_page("basic_demo/teacher_page/exam.py")
->>>>>>> 9c26e301ea2120db5f4b753f361ca6bf1b28ee1d
 st.image("basic_demo/teacher_page/static/img_3.png")
 st.image("basic_demo/teacher_page/static/img_4.png")
 
